@@ -1,8 +1,11 @@
+import Board from "./components/Board"
 
 function App() {
     return (
-        <div className="text-5xl">
-            Hello
+        <div className="h-screen flex justify-center items-center">
+            <div className="space-y-2">
+                <Board />
+            </div>
         </div>
     )
 }
